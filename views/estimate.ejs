@@ -1,0 +1,21 @@
+<%- include('partials/header') %>
+<div id="wrapper">
+<div class="proposol">
+  <div class="">
+    <h1>Proposol</h1>
+  </div>
+  <form class="lastTry"  id = "mail" action="/proposol" method="post">
+    <textarea type="text" name="pl" id = "pl" rows="8" cols="50%" placeholder="rates"></textarea>
+    <br>
+    <input type="text" name="price" id ="price" placeholder="price">
+    <br>
+    <input type="text" name="mobNo" id = "mobNo" placeholder="Mobile No">
+    <br>
+    <input type="submit" name="button" class="btn btn-lg btn-primary" id="sendEmail" value ="Send Proposol" ></input>
+    <a href="/contact" class="btn btn-lg btn-primary">Contact Us</a>
+    <a href="/logout" class = "btn btn-lg btn-primary">Log Out</a>
+  </form>
+  </div>
+</div>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,16 @@
+<%- include('partials/header') %>
+<div id="wrapper">
+  <div class="firstSignUp">
+    <img class="LogoInSign"src="Logo.jpg" alt="Logo">
+    <form class="field" action="/signUp" method="post">
+      <input type="text" name="name" placeholder="Full Name">
+      <br>
+      <input type="email" name="email" placeholder="Email Address">
+      <br>
+      <input type="password" name="password" placeholder="Password">
+      <br>
+      <button class ="btn btn-primary btn-lg" id="register" value="register" type="submit" name="subutton" disabled = "disabled">Sign Up</button>
+    </form>
+  </div>
+</div>
+<%- include('partials/footer') %>

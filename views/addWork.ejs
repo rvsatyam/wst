@@ -1,0 +1,14 @@
+<%- include('partials/header') %>
+<div id="wrapper">
+<div class="add">
+  <div class = "Keeper">
+    <h1>Keeper</h1>
+  </div>
+  <form  action="/addWork" method="post">
+    <textarea name="work" rows="8" cols="80" placeholder="work description"></textarea>
+    <br>
+    <button type="submit" name="button"><i class="fas fa-plus-circle"></i></button>
+  </form>
+</div>
+</div>
+<%- include('partials/footer') %>
